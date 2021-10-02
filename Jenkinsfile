@@ -1,6 +1,6 @@
 pipeline
 {
-    agent any
+    agent { label 'aws-slave-1' }
     stages
     {
         stage('Prep')
