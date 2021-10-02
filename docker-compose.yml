@@ -2,10 +2,8 @@ version: '3'
 
 services:
 
-  djangoapp:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  boosterapp:
+    image: boosterapp
     container_name: app
     restart: unless-stopped
     ports:
