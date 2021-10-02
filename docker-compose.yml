@@ -2,7 +2,7 @@ version: '3'
 
 services:
    boosterapp:
-      image: boosterapp
+      image: a7medayman6/boosterapp
       container_name: app
       restart: unless-stopped
       ports:
