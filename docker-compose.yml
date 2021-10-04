@@ -6,4 +6,4 @@ services:
       container_name: app
       restart: unless-stopped
       ports:
-         - "8080:8000"
+         - "80:8000"
